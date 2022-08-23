@@ -1,0 +1,24 @@
+sort1 uses: bubble sort
+
+How do you know?:
+sort1 uses the most amount of time in sorting reversed text.
+sort1 real time on reversed5000: 0.081s
+sort2 real time on reversed5000: 0.059s
+sort3 real time on reversed5000: 0.066s
+
+sort2 uses: merge sort
+
+How do you know?:
+sort2 uses the least amount of time in sorting random text.
+sort1 real time on random5000: 0.094s; on random10000: 0.303s; on random50000: 13.199s
+sort2 real time on random5000: 0.044s; on random10000: 0.088s; on random50000: 3.852s
+sort3 real time on random5000: 0.082s; on random10000: 0.215s; on random50000: 7.061s
+
+sort3 uses: selection sort
+
+How do you know?:
+sort3 uses the most amount of time in sorting sorted text.
+sort3 is better than sort1 but worse than sort2 in sorting reversed text.
+sort1 real time on sorted5000: 0.041s; on sorted10000: 0.084s; on sorted50000: 5.280s
+sort2 real time on sorted5000: 0.042s; on sorted10000: 0.118s; on sorted50000: 5.158s
+sort3 real time on sorted5000: 0.073s; on sorted10000: 0.230s; on sorted50000: 5.660s
